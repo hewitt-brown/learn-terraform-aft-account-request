@@ -31,15 +31,15 @@ module "attempt3" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "hewitt.m.brown+attemot3@gmail.com"
-    AccountName               = "Attempt3"
+    AccountEmail              = "hewitt.m.brown+devetl@gmail.com"
+    AccountName               = "dev-etl"
     ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "hewitt.m.brown@gmail.com"
-    SSOUserFirstName          = "Attempt3"
+    SSOUserFirstName          = "dev-etl"
     SSOUserLastName           = "AFT"
   }
 
-  account_customizations_name = "attempt3"
+  account_customizations_name = "dev-etl"
 
 
 
